@@ -1,0 +1,43 @@
+.popular-card {
+  position: relative;
+  height: 311px;
+  // width: 311px;
+  background-color: #26242e;
+  transition: background 0.3s;
+  overflow: hidden;
+  border-radius: 5px;
+  margin-top: 40px;
+
+  img {
+    margin-top: 25px;
+    max-width: 100%;
+  }
+}
+.popular-card:hover {
+  background-color: #facd00;
+  transition: background 0.3s;
+  img {
+    margin-top: 42px;
+    transition: $transition;
+  }
+  .popular-title {
+    color: #000;
+  }
+}
+.popular-title {
+  position: absolute;
+  z-index: 2;
+  top: 14.565%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding: 0 10px;
+  font-size: 24px;
+  color: #fff;
+  transition: color 0.3s;
+}
+
+//Popular-categories second
+.second {
+  margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+.navbar {
+  margin-top: 20px;
+  transition: $transition;
+}
+.navbar.scrolled {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  background-color: white;
+  box-shadow: $shadow;
+}
+.navbar img {
+  width: 120px;
+}
+.navbar-toggler {
+  border-radius: 0;
+}
+.dropdown-menu {
+  font-size: $font-size-base;
+}
+.my-drop {
+  font-size: 20px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-nav .nav-link {
+  font-weight: 400;
+  font-size: 75%;
+  color: $c-body;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: $c-brand;
+}
+
+.social-icon {
+  font-size: 24px;
+  color: $c-body;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.social-icon:hover {
+  background-color: transparent;
+}

@@ -1,0 +1,33 @@
+.wrapper {
+  background-color: #f2f2f2;
+  border-radius: 15px;
+  padding: 22px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+.categories {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.categories-item {
+  position: relative;
+  display: block;
+  color: $c-dark;
+  font-size: $font-size-base;
+}
+.categories-item::before {
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 3px;
+  background: $c-brand;
+  left: 0;
+  bottom: 0;
+  top: 40px;
+  transition: 0.5s;
+  transform: scale(0);
+}
+.categories-item:hover::before {
+  transform: scale(1);
+}

@@ -1,0 +1,60 @@
+.footer {
+  padding: 40px;
+  background-color: #1b1b1b;
+  color: #fff;
+  a {
+    color: #fff;
+  }
+  a:hover {
+    color: $c-light;
+  }
+}
+.logo {
+  margin-bottom: 30px;
+  width: 120px;
+  img {
+    display: inline-block;
+    height: auto;
+    width: 120px;
+    height: 34px;
+  }
+}
+.phone {
+  font-size: 14px;
+  font-weight: 600;
+}
+.footer ul li a {
+  display: block;
+}
+
+.callback {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 12px;
+}
+h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.content {
+  font-size: 12px;
+  font-weight: 500;
+  li {
+    margin-bottom: 10px;
+  }
+}
+span {
+  font-weight: 600;
+}
+.social-block ul {
+  width: 120px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  font-weight: 400;
+}
+.footer-copyright {
+  font-size: 11px;
+  margin-top: 70px;
+}
